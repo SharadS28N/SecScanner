@@ -144,29 +144,3 @@ With ❤️ using open-source tools.
 ## 📃 License
 
 MIT License
-
-```
-
----
-
-> **Prompt:**
-
-I have a full-stack project called **SecScanner**. It is an AI-powered WiFi security scanner built using a React frontend and Python Flask backend. The scanner uses `pywifi` to collect live WiFi data (SSID, BSSID, Signal strength, etc.) and saves it into a CSV.
-
-The backend uses `IsolationForest` from Scikit-learn to analyze the historical WiFi scan data and detect anomalous behavior that could represent **evil twin attacks** (malicious networks impersonating legitimate ones).
-
-The frontend visualizes detected networks, suspicious activity, and signal statistics. Users can filter by SSID or type (suspicious/normal), view detection confidence, and rescan anytime. There's a theme toggle and an explanation section of how the ML-based detection works.
-
-Please create a professional **PowerPoint presentation outline** with:
-- A title slide
-- Problem statement (Evil Twin Attacks)
-- Project Goals
-- Architecture Diagram (Frontend + Backend + Model)
-- Live Demo Slide
-- ML Model Description (features, Isolation Forest)
-- Detection Logic
-- UI Features
-- Tech Stack
-- Challenges
-- Future Work
-- Q&A Slide
